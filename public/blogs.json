@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "cover": "https://source.unsplash.com/featured/?javascript",
+      "cover": "/src/assets/images/1.jpg",
       "title": "The Secrets of JavaScript",
       "author": "John Doe",
       "author_img": "https://randomuser.me/api/portraits/men/1.jpg",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "cover": "https://source.unsplash.com/featured/?reactjs",
+      "cover": "/src/assets/images/2.png",
       "title": "Mastering React in 2025",
       "author": "Jane Smith",
       "author_img": "https://randomuser.me/api/portraits/women/2.jpg",
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "cover": "https://source.unsplash.com/featured/?webdesign",
+      "cover": "/src/assets/images/3.png",
       "title": "The Future of Web Design",
       "author": "Emily Johnson",
       "author_img": "https://randomuser.me/api/portraits/women/3.jpg",
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "cover": "https://source.unsplash.com/featured/?tailwindcss",
+      "cover": "/src/assets/images/4.jpg",
       "title": "Why TailwindCSS is a Game-Changer",
       "author": "Michael Lee",
       "author_img": "https://randomuser.me/api/portraits/men/4.jpg",
@@ -41,7 +41,7 @@
     },
     {
       "id": 5,
-      "cover": "https://source.unsplash.com/featured/?mern",
+      "cover": "/src/assets/images/4.jpg",
       "title": "Exploring the MERN Stack",
       "author": "Sophia Brown",
       "author_img": "https://randomuser.me/api/portraits/women/5.jpg",
