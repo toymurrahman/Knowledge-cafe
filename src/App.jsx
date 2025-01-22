@@ -11,7 +11,6 @@ function App() {
   const handleAddToBookmark = blog => {
     const newBookmarks = [...bookmarks, blog];
     setBookmark(newBookmarks);
-    console.log(blog);
   }
 
   const handleMarkAsRead = time => {
