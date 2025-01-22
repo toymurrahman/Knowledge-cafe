@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { FaBeer, FaBookmark } from "react-icons/fa";
 
-const Blog = ({ blog, handleAddToBookmark }) => {
+const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
   const {
     id,
     title,
@@ -35,6 +35,10 @@ const Blog = ({ blog, handleAddToBookmark }) => {
       </div>
 
       <h1 className="text-4xl"> {title} </h1>
+      <button
+                onClick={() => handleMarkAsRead( reading_time)}
+                className='text-purple-800 font-bold underline'
+            >Mark As Read</button>
     </div>
   );
 };
