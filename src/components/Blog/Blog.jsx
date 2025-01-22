@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
-import { FaBeer,FaBookmark } from 'react-icons/fa';
+import { FaBeer, FaBookmark } from "react-icons/fa";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmark }) => {
   const {
     id,
     title,
@@ -24,9 +24,14 @@ const Blog = ({ blog }) => {
           </div>
         </div>
 
-        <span>{reading_time} min read</span>
-        <button><FaBookmark></FaBookmark></button>
-
+        <div>
+          <span>{reading_time} min read</span>
+          <button 
+         onClick={() => handleAddToBookmark(blog)}
+          className="ml-4 text-2xl ">
+            <FaBookmark></FaBookmark>
+          </button>
+        </div>
       </div>
 
       <h1 className="text-4xl"> {title} </h1>
